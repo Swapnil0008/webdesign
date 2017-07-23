@@ -1,0 +1,258 @@
+body {
+	
+				padding: 0;
+				margin: 0;
+				display: inline;
+}
+
+
+
+.top {
+
+		background-color: #eee;
+		margin-top: 0px;
+		height: 50px;
+		width: 70%;
+		float: left;
+}
+
+
+.top2 {
+
+		background-color: #e67e22;
+		margin-top: 0px;
+		height: 50px;
+		width: 30%;
+		float: right;
+}
+
+
+.top h4 {
+
+			color: black;
+			font-size: 14.5px;
+			font-family: Segoe UI;
+			font-variant: normal;
+			font-style: normal;
+			font-weight: 210px;
+			line-height: 0px;
+			text-decoration: none;
+			padding-top: 5px;
+			margin-left: 100px;
+
+}
+
+
+.top a {
+
+			color: black;
+			font-size: 14.5px;
+			font-family: Segoe UI;
+			font-variant: normal;
+			font-style: normal;
+			font-weight: 210px;
+			line-height: 0px;
+			text-decoration: none;
+			padding-top: 20px;
+			margin-left: 0.001%;
+
+}
+
+
+
+.tab {
+
+
+		width: 20%;
+		height: 90px;
+		float: left;
+		margin-top: 0px;
+		background-color: #ffffff;
+		
+
+}
+
+
+
+.strip {
+
+		width: 3%;
+		height: 90px;
+		float: right;
+		margin-top: 0px;
+		background-color: #e67e22; 
+
+
+}
+
+
+
+.tab img {
+
+			height: 71px;
+			width: 102px;
+			margin-left: 130px;
+			margin-top: 10px;
+
+}
+
+
+.tab img:hover {
+
+
+							opacity: 0.5;
+							transition: 0.2s; 
+							position: contain;
+
+
+		}
+
+
+
+.containerHead {
+
+					width:100%;
+					height: 600px;
+					float: right;
+					background-image: url(intro.jpg);
+					background-size: cover;
+					margin-bottom: 120px;
+					
+				
+}
+
+
+
+header a {
+
+						color: #fff;
+						font-size: 14.5px;
+						font-family: Segoe UI;
+						font-variant: normal;
+						font-style: normal;
+						font-weight: 200;
+					 	text-decoration: none;
+					 	margin-right: 5px;
+					 	margin-left: 55px;
+					 	margin-top: 50px;
+
+
+}
+
+
+
+
+
+
+header a:hover {
+
+
+						transition: 0.2s;
+						color: #eb984e;
+
+		}
+
+
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Graphik-Bold.otf);
+}
+
+
+
+
+header h2 {
+
+			color: #fff;
+			font-size: 50px;
+			font-family: myFirstFont;
+			font-variant: normal;
+			font-style: normal;
+		 	text-decoration: none;
+		 	margin-right: 45px;
+		 	margin-left: 50px;
+		 	margin-top: 190px;
+		 	margin-bottom: 55px;
+
+}	
+
+
+
+header p1 {
+
+			color: #fff;
+			font-size: 25px;
+			font-family: myFirstFont;
+			font-variant: normal;
+			font-style: normal;
+		 	text-decoration: none;
+		 	margin-right: 45px;
+		 	margin-left: 50px;
+		 	margin-top: 20px;
+
+}	
+
+
+
+header p {
+
+			color: #fff;
+			font-size: 20px;
+			font-family: Segoe UI;
+			font-variant: normal;
+			font-style: normal;
+			font-weight: 0px;
+		 	text-decoration: none;
+		 	margin-right: 45px;
+		 	margin-left: 50px;
+		 	margin-top: 1px;
+
+}	
+
+
+
+
+.mid {
+
+		width:100%;
+		height: 600px;
+		float: right;
+		background-image: url(mid1.jpg);
+		background-size: cover;
+		margin-bottom: 120px;
+	
+}
+
+
+
+.mid h1 {
+
+			color: #000000;
+			font-size: 30px;
+			font-family: myFirstFont;
+			font-variant: normal;
+			font-style: normal;
+		 	text-decoration: none;
+		 	margin-left: 7%;
+		 
+}
+
+
+
+.mid p {
+
+
+			color: #000000;
+			font-size: 20px;
+			font-family: Segoe UI;
+			font-variant: normal;
+			font-style: normal;
+			font-weight: 200px;
+		 	text-decoration: none;
+		 	margin-left: 10%;
+		 	margin-top: 50px;
+		 	margin-right: 40%;
+		 	
+}	
