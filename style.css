@@ -127,10 +127,9 @@ header a {
 
 						color: #fff;
 						font-size: 14.5px;
-						font-family: Segoe UI;
+						font-family: GraphikMedium;
 						font-variant: normal;
 						font-style: normal;
-						font-weight: 200;
 					 	text-decoration: none;
 					 	margin-right: 5px;
 					 	margin-left: 55px;
@@ -156,8 +155,14 @@ header a:hover {
 
 
 @font-face {
-    font-family: myFirstFont;
+    font-family: GraphikBold;
     src: url(Graphik-Bold.otf);
+}
+
+
+@font-face {
+    font-family: GraphikMedium;
+    src: url(Graphik-Medium.otf);
 }
 
 
@@ -167,7 +172,7 @@ header h2 {
 
 			color: #fff;
 			font-size: 50px;
-			font-family: myFirstFont;
+			font-family: GraphikBold;
 			font-variant: normal;
 			font-style: normal;
 		 	text-decoration: none;
@@ -184,7 +189,7 @@ header p1 {
 
 			color: #fff;
 			font-size: 25px;
-			font-family: myFirstFont;
+			font-family: GraphikBold;
 			font-variant: normal;
 			font-style: normal;
 		 	text-decoration: none;
@@ -203,7 +208,7 @@ header p {
 			font-family: Segoe UI;
 			font-variant: normal;
 			font-style: normal;
-			font-weight: 0px;
+			font-weight: 200;
 		 	text-decoration: none;
 		 	margin-right: 45px;
 		 	margin-left: 50px;
@@ -217,7 +222,7 @@ header p {
 .mid {
 
 		width:100%;
-		height: 600px;
+		height: 650px;
 		float: right;
 		background-image: url(mid1.jpg);
 		background-size: cover;
@@ -229,13 +234,14 @@ header p {
 
 .mid h1 {
 
-			color: #000000;
-			font-size: 30px;
-			font-family: myFirstFont;
+			color: #ffffff;
+			font-size: 32px;
+			font-family: GraphikBold;
 			font-variant: normal;
 			font-style: normal;
 		 	text-decoration: none;
 		 	margin-left: 7%;
+		 	margin-top: 100px;
 		 
 }
 
@@ -245,14 +251,186 @@ header p {
 
 
 			color: #000000;
-			font-size: 20px;
+			font-size: 23px;
 			font-family: Segoe UI;
 			font-variant: normal;
 			font-style: normal;
-			font-weight: 200px;
-		 	text-decoration: none;
-		 	margin-left: 10%;
-		 	margin-top: 50px;
-		 	margin-right: 40%;
+			font-weight: 200;
+			text-decoration: none;
+		 	margin-left: 5%;
+		 	margin-top: 160px;
+		 	margin-right: 42%;
 		 	
 }	
+
+.mid b {
+
+			font-family: GraphikBold;
+			font-variant: normal;
+			font-style: normal;
+		 	text-decoration: none;
+
+}
+
+
+.mid p1 {
+
+			color: #e67e22;
+
+}
+
+
+.mid a {
+
+			font-family: GraphikMedium;
+			color: #000000;
+			font-variant: normal;
+			font-style: normal;
+		 	text-decoration: none;
+
+}
+
+
+
+
+.work {
+
+		width:100%;
+		height: 600px;
+		float: right;
+		background-image: url(work.jpg);
+		background-size: cover;
+		margin-bottom: 0px;
+	
+}
+
+
+
+
+
+.work h1 {
+
+			color: #ffffff;
+			font-size: 32px;
+			font-family: GraphikBold;
+			font-variant: normal;
+			font-style: normal;
+		 	text-decoration: none;
+		 	margin-left: 57%;
+		 	margin-top: 100px;
+		 	margin-bottom: 0px;
+		 
+}
+
+
+
+
+.work p {
+
+
+			color: #ffffff;
+			font-size: 23px;
+			font-family: Segoe UI;
+			font-variant: normal;
+			font-style: normal;
+			font-weight: 200;
+			text-decoration: none;
+		 	margin-left: 5%;
+		 	margin-top: 100px;
+		 	margin-right: 55%;
+		 	
+}	
+
+
+
+
+
+
+.work a {
+
+			font-family: GraphikMedium;
+			color: #ffffff;
+			font-variant: normal;
+			font-style: normal;
+		 	text-decoration: none;
+
+}
+
+
+
+.strip1 {
+
+			width: 50%;
+			height: 10px;
+			background-color: #e1e5e8;
+			float: left;
+
+}
+
+
+.strip2 {
+
+			width: 50%;
+			height: 10px;
+			background-color: #e67e22;
+		
+			float: right;
+
+}
+
+
+.clients {
+
+			width:100%;
+			height: 465px;
+			float: right;
+			margin-bottom: 0px;
+
+}
+
+
+.clients img {
+
+					height: 100px;
+					width: 260px;
+					margin-right: 1%;
+					margin-left: 5%;
+					margin-top: 50px;
+					margin-bottom: 0px;
+
+}
+
+
+
+.strip3 {
+
+			width: 50%;
+			height: 10px;
+			background-color: #e67e22;
+			float: left;
+			margin-top: 50px;
+
+}
+
+
+.strip4 {
+
+			width: 50%;
+			height: 10px;
+			background-color: #e1e5e8;			
+			float: right;
+			margin-top: 50px;
+
+}
+
+
+.promise {
+
+			width: 30%;
+			height: 600px;
+			background-image: url(promise.jpg);			
+			float: left;
+			margin-top: 150px;
+
+
+}
