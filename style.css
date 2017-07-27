@@ -186,6 +186,12 @@ header a:hover {
 }
 
 
+@font-face {
+    font-family: Blog;
+    src: url(Blog.otf);
+}
+
+
 
 
 header .card1 h2 {
@@ -706,9 +712,29 @@ header .card2 p2 {
 			color: #ffffff;
 		 	text-decoration: none;
 		 	margin-left: 37.8%;
-
+		 	margin-top: 10px;
 
 }
+
+
+
+
+.last b {
+
+			font-family: Blog;
+			font-size: 50px;
+			letter-spacing: 0.5px;
+			font-variant: normal;
+			font-style: normal;
+			color: #e67e22;
+		 	text-decoration: none;
+		 	margin-left: 10px;
+		 	
+
+}
+
+
+
 
 
 .lastcon {
